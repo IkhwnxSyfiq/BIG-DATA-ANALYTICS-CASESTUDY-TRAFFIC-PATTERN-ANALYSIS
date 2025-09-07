@@ -1,18 +1,19 @@
-Big Data Analytics in Transportation: Traffic Pattern Analysis
+# Big Data Analytics in Transportation: Traffic Pattern Analysis
 
-This repository contains the code and presentation for a university case study on Big Data Analytics, focusing on its application in the transportation sector. The project demonstrates how clustering algorithms can be used to analyze and identify patterns in traffic flow data.
+This repository contains the code and presentation for a university case study on Big Data Analytics, focusing on its application in the transportation sector. The project demonstrates how clustering algorithms can be used to analyse and identify patterns in traffic flow data.
 
-📄 Project Overview
+## 📄 Project Overview
 This project was completed as part of the Big Data Analytics course at Universiti Kuala Lumpur (UniKL British Malaysian Institute). The goal was to propose a big data application, demonstrate its process, implement a proof-of-concept, and discuss its implications.
 
-👥 Team Members
+## 👥 Team Members
 Name	Student ID
 Anis Suriani binti Azizan	51221221056
 Nurul Izzati binti Mahamad Ismail	51221221147
 Ahmad Syahmi bin Ahmad Pauzi	51221221003
 Muhammad Waiz bin Nor Kamal	51221221053
 Muhammad Ikhwan Syafiq bin Norsham	51221221125
-🚀 Proposed Application: Traffic Analytics & Prediction
+
+## 🚀 Proposed Application: Traffic Analytics & Prediction
 We proposed a Big Data Analytics system for the transportation industry to optimise traffic flow, predict congestion, and improve urban mobility. The system uses real-time data from various sources (GPS, traffic cameras, toll booths) to make data-driven decisions.
 
 System Block Diagram
@@ -28,7 +29,7 @@ Model Updates: Continuously retraining models for accuracy.
 
 Alerts: Generating notifications for critical events or anomalies.
 
-💻 Code Implementation: K-Means Clustering for Traffic Pattern Analysis
+## 💻 Code Implementation: K-Means Clustering for Traffic Pattern Analysis
 We implemented a K-Means Clustering algorithm to analyse hourly traffic volume data from a specific location (Sungai Pusu, Combak) and identify distinct patterns or clusters of traffic behavior throughout the day.
 
 Prerequisites
@@ -57,10 +58,10 @@ The Elbow Method graph to help choose the optimal k.
 
 A scatter plot showing the data points colored by their assigned cluster.
 
-📈 Results
+## 📈 Results
 The clustering analysis successfully grouped times of the day into distinct traffic patterns (e.g., early morning light traffic, morning/evening rush hours, moderate daytime traffic). This insight can help traffic management authorities allocate resources more efficiently and provide drivers with accurate congestion forecasts.
 
-✔️ Benefits & Challenges
+## ✔️ Benefits & Challenges
 Benefits
 Optimised Traffic Management
 
@@ -83,7 +84,7 @@ Public acceptance and trust
 
 Technological limitations
 
-🏗️ Recommended Platform: Apache Kafka
+## 🏗️ Recommended Platform: Apache Kafka
 We recommend Apache Kafka as the best platform for this application due to its:
 
 Real-time Data Processing: Perfect for handling continuous streams of traffic data.
@@ -94,7 +95,7 @@ Event-Driven Architecture: Ideal for triggering immediate alerts and model updat
 
 Strong Integration: Easily connects with various data storage and processing systems like Hadoop and Spark.
 
-🔧 Other Suggested Algorithms
+## 🔧 Other Suggested Algorithms
 K-Means Clustering (Unsupervised Learning): Used for pattern discovery and grouping similar data points, as demonstrated in this project.
 
 Recurrent Neural Networks - RNNs (Supervised Learning): Particularly LSTMs, are excellent for time-series forecasting and would be ideal for predicting future traffic congestion based on historical sequences of data.
